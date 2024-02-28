@@ -2,7 +2,7 @@ namespace DiceGame;
 
 public class TheGame
 {
-    private DiceCup _house = new DiceCup(new WeightedDie(1, 1, 1, 1, 1.2, 1.2, 1.5), StandardDie.D6);
+    private DiceCup _house = new DiceCup(new WeightedDie(1, 1, 2, 3, 5, 8), StandardDie.D6);
 
     private Dictionary<string, DiceCup> _players = new();
 

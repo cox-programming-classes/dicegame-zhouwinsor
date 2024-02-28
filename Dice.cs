@@ -24,7 +24,7 @@ public class WeightedDie : IDie
     private static readonly Random Rand = new();
     public int SideCount => _sideWeights.Length;
 
-    private double[] _sideWeights;
+    private readonly double[] _sideWeights;
 
     public WeightedDie(params double[] sideWeights)
     {
